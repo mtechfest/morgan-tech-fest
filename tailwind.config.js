@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'blue-theme': '#000080'
+        'morgan-blue': '#004583'
       },
       fontFamily: {
         bebas: ['Bebas Neue', 'sans-serif'],

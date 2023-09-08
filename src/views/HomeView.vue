@@ -17,7 +17,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
 
 <template>
   <div id="hero">
-    <div class="hidden bg-blue-theme pt-14 lg:block lg:pb-[100px]">
+    <div class="bg-morgan-blue hidden pt-14 lg:block lg:pb-[100px]">
       <div class="mx-auto lg:max-w-5xl">
         <div class="hero-grid">
           <span class="hero-text">Discover</span>
@@ -57,7 +57,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
       </div>
     </div>
 
-    <div class="block bg-blue-theme pb-[100px] pt-8 lg:hidden">
+    <div class="bg-morgan-blue block pb-[100px] pt-8 lg:hidden">
       <div class="px-6 lg:px-0">
         <div class="hero-grid">
           <span class="hero-text">Discover</span>
@@ -140,7 +140,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
     </div>
   </div>
 
-  <div class="bg-blue-theme px-6 pb-[71px] pt-[51px] lg:pb-[239px] lg:pt-[112px]" id="schedule">
+  <div class="bg-morgan-blue px-6 pb-[71px] pt-[51px] lg:pb-[239px] lg:pt-[112px]" id="schedule">
     <div class="lg:mx-auto lg:max-w-5xl">
       <h2 class="sub-title mx-auto">schedule</h2>
 
@@ -271,7 +271,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
     </div>
   </div>
 
-  <div class="bg-blue-theme px-6 pb-20 pt-[86px] lg:pb-11 lg:pt-32">
+  <div class="bg-morgan-blue px-6 pb-20 pt-[86px] lg:pb-11 lg:pt-32">
     <div class="lg:mx-auto lg:max-w-5xl">
       <h2 class="sub-title mx-auto">gallery</h2>
 
@@ -387,7 +387,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
 
 .video-section {
   @apply relative px-6 pb-8 lg:px-0  lg:pb-[100px] lg:pt-20;
-  background: linear-gradient(to bottom, #000080 0%, #000080 40%, #fef8f0 40%, #fef8f0 100%);
+  background: linear-gradient(to bottom, #004583 0%, #004583 40%, #fef8f0 40%, #fef8f0 100%);
 }
 
 .video-container {

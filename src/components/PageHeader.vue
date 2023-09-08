@@ -107,7 +107,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <header :class="{ 'bg-blue-theme': !isSticky, sticky: isSticky }" ref="myHeader">
+  <header :class="{ 'bg-morgan-blue': !isSticky, sticky: isSticky }" ref="myHeader">
     <div class="header-bg px-5 py-7">
       <div class="mx-auto flex max-w-screen-xl items-center justify-between gap-x-[5%]">
         <div class="flex items-center gap-x-3">
@@ -160,11 +160,7 @@ onUnmounted(() => {
   /*
   */
   border: 3px solid rgba(255, 255, 255, 0.014);
-  background: linear-gradient(
-      175deg,
-      rgba(177, 177, 177, 0.32) 5.24%,
-      rgba(54, 53, 103, 0.2) 51.01%
-    ),
+  background: linear-gradient(175deg, rgba(177, 177, 177, 0.32) 5.24%, rgba(0, 69, 131, 0.2) 51.01%),
     rgba(0, 0, 128, 0.3);
   backdrop-filter: blur(3.3px);
 }
@@ -174,7 +170,7 @@ onUnmounted(() => {
 
 .register-btn {
   @apply flex h-[40px] w-full max-w-[165px] items-center justify-center rounded-[80px] px-9 text-sm font-extrabold text-[#121139] md:h-14 md:max-w-[196px] md:text-lg;
-  background: linear-gradient(180deg, #fc711b 25.62%, #fc4608 100.89%);
+  background: linear-gradient(180deg, #f37936 25.62%, #fc4608 100.89%);
 }
 
 .clicked {

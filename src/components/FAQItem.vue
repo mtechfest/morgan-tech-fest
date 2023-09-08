@@ -25,7 +25,7 @@ function toggleRotation() {
 
     <p
       v-if="CouroselOpened"
-      class="rounded-2xl bg-[#fc5e13de] px-6 py-4 font-urbanist text-xl font-bold text-[#121139] lg:py-6 lg:text-2xl"
+      class="rounded-2xl bg-[#f37936] px-6 py-4 font-urbanist text-xl font-semibold text-[#121139] lg:py-6 lg:text-2xl"
     >
       {{ answer }}
     </p>
