@@ -27,7 +27,7 @@ const schedule = [
 
 const panelist = [
   {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694034987/MorganTechFest/panelist/Dr._Md_Rahman_nzhtz2.png',
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694208775/MorganTechFest/panelist/Dr._Md_Rahman_copy_wjpz8x.png',
     name: 'Mahmudur Rahman'
   },
   {
@@ -39,7 +39,7 @@ const panelist = [
     name: 'Prof. Tomasz Durakiewicz'
   },
   {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694034703/MorganTechFest/panelist/Monir_Sharker_paihad.png',
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694208776/MorganTechFest/panelist/Dr_Monir_Sharker_obhgzr.png',
     name: 'Monir Sharker'
   },
   {
@@ -159,7 +159,7 @@ const FaqQuestionsAnswers = [
   },
   {
     question: 'Location?',
-    answer: `University Student Center, Calvin and Tina Tyler Ballroom, Morgan State University.`
+    answer: `Morgan Business Center - Graves School of Business and Management 4100 Hillen Rd. Baltimore, MD 21218.`
   },
   {
     question: 'Is it specific to any department?',
@@ -195,13 +195,19 @@ const FaqQuestionsAnswers = [
           <div class="flex gap-x-10">
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]">Date:</span>
-              <p class="font-urbanist text-[22px] text-white">Thurs Nov 16, Fri Nov 17, 2023</p>
+              <p class="font-urbanist text-[22px] text-white">
+                Thurs, Nov. 2, <br />
+                Fri, Nov. 3, <br />
+                2023.
+              </p>
             </div>
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]"
                 >Venue:</span
               >
-              <p class="font-urbanist text-[22px] text-white">Calvin & Tina Tyler Ballroom</p>
+              <p class="font-urbanist text-[22px] text-white">
+                Graves School of Business and Management.
+              </p>
             </div>
           </div>
         </div>
@@ -226,11 +232,19 @@ const FaqQuestionsAnswers = [
           <div class="flex gap-x-10">
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]">Date:</span>
-              <p class="font-urbanist text-[22px] text-white">Thurs Nov 16, Fri Nov 17, 2023</p>
+              <p class="font-urbanist text-[22px] text-white">
+                Thurs, Nov. 2, <br />
+                Fri, Nov. 3, <br />
+                2023.
+              </p>
             </div>
             <div class="max-w-[163px]">
-              <span class="font-urbanist text-base font-black uppercase text-[#F68F21]">Date:</span>
-              <p class="font-urbanist text-[22px] text-white">Thurs Nov 16, Fri Nov 17, 2023</p>
+              <span class="font-urbanist text-base font-black uppercase text-[#F68F21]"
+                >Venue:</span
+              >
+              <p class="font-urbanist text-[22px] text-white">
+                Graves School of Business and Management.
+              </p>
             </div>
           </div>
         </div>
