@@ -170,7 +170,7 @@ onUnmounted(() => {
 
 .register-btn {
   @apply flex h-[40px] w-full max-w-[165px] items-center justify-center rounded-[80px] px-9 text-sm font-extrabold text-[#121139] md:h-14 md:max-w-[196px] md:text-lg;
-  background: linear-gradient(180deg, #f37936 25.62%, #fc4608 100.89%);
+  background: linear-gradient(180deg, #fc711a 25.62%, #fc470b 100.89%);
 }
 
 .clicked {
