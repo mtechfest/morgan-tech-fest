@@ -47,14 +47,10 @@ const scaleDown = async (event) => {
     setTimeout(() => {
       isClicked.value = false
       resolve()
-    }, 1500)
+    }, 100)
   })
 
-  window.open(
-    'https://docs.google.com/forms/d/e/1FAIpQLScKCTDITcfJCI_tROrIIsBq-uh4dqivAwua86tE6kAwP9ja8A/viewform',
-    '_blank',
-    'noopener noreferrer'
-  )
+  window.open('http://registers.morgantechfest.com/', '_blank', 'noopener noreferrer')
 }
 
 const titleClick = (e) => {
@@ -108,16 +104,16 @@ onUnmounted(() => {
 
 <template>
   <header :class="{ 'bg-morgan-blue': !isSticky, sticky: isSticky }" ref="myHeader">
-    <div class="header-bg px-5 py-7">
-      <div class="mx-auto flex max-w-screen-xl items-center justify-between gap-x-[5%]">
+    <div class="header-bg px-5 py-7 xl:px-[5%]">
+      <div class="mx-auto flex items-center justify-between gap-x-[5%]">
         <div class="flex items-center gap-x-3">
-          <button class="md:hidden" @click="toggleMenu"><ChocolateMenuIcon /></button>
+          <button class="lg:hidden" @click="toggleMenu"><ChocolateMenuIcon /></button>
           <RouterLink to="/"
             ><img alt="Logo" src="@/assets/logo.svg" class="w-9/12 lg:w-full"
           /></RouterLink>
         </div>
 
-        <nav class="hidden w-full max-w-screen-sm justify-between md:flex">
+        <nav class="hidden w-full max-w-screen-sm justify-between lg:flex">
           <a href="#" v-scroll-to="'#hero'" class="nav-link">Home</a>
           <a href="#" v-scroll-to="'#about'" class="nav-link">About us</a>
           <a href="#" v-scroll-to="'#schedule'" class="nav-link">Schedule</a>
