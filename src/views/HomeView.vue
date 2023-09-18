@@ -18,7 +18,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
 <template>
   <div id="hero">
     <div class="hidden bg-morgan-blue pt-14 lg:block lg:pb-[100px]">
-      <div class="3xl:max-w-screen-lg 4xl:max-w-screen-xl mx-auto lg:max-w-5xl">
+      <div class="mx-auto lg:max-w-5xl 3xl:max-w-screen-lg 4xl:max-w-screen-xl">
         <div class="hero-grid">
           <span class="hero-text">Discover</span>
           <div class="mx-auto"><PurpleGlitterIcon /></div>
@@ -39,8 +39,8 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]">Date:</span>
               <p class="font-urbanist text-[22px] text-white">
-                Fri, Nov. 10, <br />
-                Sat, Nov. 11, <br />
+                Fri, Nov. 17, <br />
+                Sat, Nov. 18, <br />
                 2023.
               </p>
             </div>
@@ -76,8 +76,8 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]">Date:</span>
               <p class="font-urbanist text-[22px] text-white">
-                Thurs, Nov. 2, <br />
-                Fri, Nov. 3, <br />
+                Thurs, Nov. 17, <br />
+                Fri, Nov. 18, <br />
                 2023.
               </p>
             </div>
@@ -96,7 +96,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
   </div>
 
   <div class="video-section">
-    <div class="3xl:max-w-screen-lg 4xl:max-w-screen-xl lg:mx-auto lg:max-w-5xl">
+    <div class="lg:mx-auto lg:max-w-5xl 3xl:max-w-screen-lg 4xl:max-w-screen-xl">
       <div class="video-container">
         <iframe
           src="https://www.youtube.com/embed/rI_NHdC4kEY"
@@ -110,7 +110,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
   </div>
 
   <div class="bg-[#FEF8F0] px-6 pb-[109px] pt-4 md:pb-[174px]" id="about">
-    <div class="3xl:max-w-screen-2xl 4xl:max-w-screen-3xl lg:mx-auto lg:max-w-5xl">
+    <div class="lg:mx-auto lg:max-w-5xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl">
       <div class="flex flex-col items-center gap-x-9 gap-y-4 md:flex-row md:justify-center">
         <h2 class="sub-title-dark w-full">About Us</h2>
         <p class="max-w-[626px] font-urbanist text-xl font-normal">
@@ -120,7 +120,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
       </div>
     </div>
 
-    <div class="3xl:max-w-screen-lg 4xl:max-w-screen-xl mt-11 lg:mx-auto lg:max-w-5xl">
+    <div class="mt-11 lg:mx-auto lg:max-w-5xl 3xl:max-w-screen-lg 4xl:max-w-screen-xl">
       <div class="flex flex-col items-center gap-x-12 gap-y-12 md:flex-row">
         <p class="font-urbanist text-xl font-normal md:w-1/2">
           Morgan TechFest focuses on educating students about the influence of technology on their
@@ -141,7 +141,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
   </div>
 
   <div class="bg-morgan-blue px-6 pb-[71px] pt-[51px] lg:pb-[239px] lg:pt-[112px]" id="schedule">
-    <div class="4xl:max-w-screen-xl lg:mx-auto lg:max-w-5xl">
+    <div class="lg:mx-auto lg:max-w-5xl 4xl:max-w-screen-xl">
       <h2 class="sub-title mx-auto">schedule</h2>
 
       <div class="mt-9 grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 md:mt-12 lg:grid-cols-4">
@@ -163,7 +163,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
         <h2 class="sub-title mx-auto">speakers</h2>
 
         <div
-          class="4xl:justify-between mt-6 flex flex-col items-center justify-center gap-x-8 gap-y-6 lg:mt-24 lg:flex-row"
+          class="mt-6 flex flex-col items-center justify-center gap-x-8 gap-y-6 lg:mt-24 lg:flex-row 4xl:justify-between"
         >
           <div class="speaker-img-container">
             <img
@@ -210,7 +210,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
   </div>
 
   <div
-    class="4xl:max-w-screen-xl px-6 pb-16 pt-14 lg:mx-auto lg:max-w-5xl lg:px-0 lg:pb-52 lg:pt-40"
+    class="px-6 pb-16 pt-14 lg:mx-auto lg:max-w-5xl lg:px-0 lg:pb-52 lg:pt-40 4xl:max-w-screen-xl"
     id="sponsors"
   >
     <h2 class="sub-title-dark mx-auto">sponsors</h2>
@@ -228,7 +228,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
         <img
           src="https://res.cloudinary.com/ojay-dev/image/upload/v1693912315/MorganTechFest/sponsors/silver_sponsor_nytcof.svg"
           alt="HBCU"
-          class="4xl:w-[80%] 4xl:mx-auto"
+          class="4xl:mx-auto 4xl:w-[80%]"
         />
       </div>
     </div>
@@ -277,7 +277,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
   </div>
 
   <div class="bg-morgan-blue px-6 pb-20 pt-[86px] lg:pb-11 lg:pt-32">
-    <div class="4xl:max-w-screen-xl lg:mx-auto lg:max-w-5xl">
+    <div class="lg:mx-auto lg:max-w-5xl 4xl:max-w-screen-xl">
       <h2 class="sub-title mx-auto">gallery</h2>
 
       <div class="mt-7">
@@ -322,7 +322,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
       </div>
     </div>
 
-    <div class="4xl:max-w-screen-xl mt-16 lg:mx-auto lg:mt-44 lg:max-w-5xl" id="faq">
+    <div class="mt-16 lg:mx-auto lg:mt-44 lg:max-w-5xl 4xl:max-w-screen-xl" id="faq">
       <h2 class="sub-title mx-auto">FAQ</h2>
 
       <div class="mt-5 lg:mt-6" v-for="item in FaqQuestionsAnswers" :key="item.name">
@@ -330,7 +330,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
       </div>
     </div>
 
-    <div class="3xl:justify-around 3xl:max-w-sm mx-auto mt-[84px] flex justify-center gap-x-3">
+    <div class="mx-auto mt-[84px] flex justify-center gap-x-3 3xl:max-w-sm 3xl:justify-around">
       <a
         href="mailto:morgantechfest@gmail.com"
         target="_blank"
@@ -376,7 +376,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
 
 <style scoped>
 .hero-grid {
-  @apply 3xl:mb-8 relative grid items-center justify-center gap-y-4 lg:grid-cols-[384px_0.4fr_384px] lg:gap-y-0 xl:justify-between;
+  @apply relative grid items-center justify-center gap-y-4 lg:grid-cols-[384px_0.4fr_384px] lg:gap-y-0 xl:justify-between 3xl:mb-8;
 }
 
 .hero-text {

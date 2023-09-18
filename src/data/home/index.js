@@ -63,6 +63,10 @@ export const partners = [
     img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912314/MorganTechFest/patners/Amazon-Logo_uwtnvr.png'
   },
   {
+    name: 'Google',
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1695066273/MorganTechFest/patners/image_2_n9g3tw.png'
+  },
+  {
     name: 'JS Technology Academy',
     img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912315/MorganTechFest/patners/JOS-Tech-Logo_yyryyj.png'
   },
