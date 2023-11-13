@@ -50,7 +50,7 @@ const scaleDown = async (event) => {
     }, 100)
   })
 
-  window.open('http://registers.morgantechfest.com/', '_blank', 'noopener noreferrer')
+  window.open('https://form.jotform.com/cmorgantechfest/register', '_blank', 'noopener noreferrer')
 }
 
 const titleClick = (e) => {

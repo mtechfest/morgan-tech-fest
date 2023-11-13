@@ -39,9 +39,11 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]">Date:</span>
               <p class="font-urbanist text-[22px] text-white">
-                Fri, Nov. 17, <br />
-                Sat, Nov. 18, <br />
-                2023.
+                Fri, Nov. 17, 2023<br />
+                2pm - 5pm.
+                <br /><br />
+                Sat, Nov. 18, 2023<br />
+                9am - 5pm.
               </p>
             </div>
             <div class="max-w-[163px]">
@@ -76,9 +78,11 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]">Date:</span>
               <p class="font-urbanist text-[22px] text-white">
-                Thurs, Nov. 17, <br />
-                Fri, Nov. 18, <br />
-                2023.
+                Fri, Nov. 17, 2023<br />
+                2pm - 5pm.
+                <br /><br />
+                Sat, Nov. 18, 2023<br />
+                9am - 5pm.
               </p>
             </div>
             <div class="max-w-[163px]">
@@ -114,7 +118,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
       <div class="flex flex-col items-center gap-x-9 gap-y-4 md:flex-row md:justify-center">
         <h2 class="sub-title-dark w-full">About Us</h2>
         <p class="max-w-[626px] font-urbanist text-xl font-normal">
-          Morgan TechFest is A student-led tech conference sponsored through the computer science
+          Morgan TechFest is a student-led tech conference powered by the computer science
           department at Morgan State University.
         </p>
       </div>
@@ -151,12 +155,14 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
       </div>
 
       <div class="mt-14 flex justify-center lg:mt-16">
-        <RouterLink
-          to="/"
+        <a 
+          href="https://drive.google.com/file/d/1F_tlXIv_0ZEIMT8aFZUo-djZPpvx3E2u/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
           class="flex items-center gap-x-4 rounded-[44px] border-2 border-white px-6 py-4 font-urbanist text-lg font-semibold text-white hover:text-white md:text-2xl lg:border-0 lg:py-6 lg:text-3xl"
           >Check full schedule here
           <ArrowExternalIcon />
-        </RouterLink>
+        </a>
       </div>
 
       <div class="mt-24 lg:mt-40" id="speakers">
