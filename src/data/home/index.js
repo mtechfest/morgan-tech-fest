@@ -46,49 +46,28 @@ export const panelist = [
 
 export const partners = [
   {
-    name: 'Bloomberg',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912315/MorganTechFest/patners/imgbin-new-york-city-bloomberg-logo-business-public-relations-others-phb3ccrMbmzt3GtmTYPU3gDiM_h0rzlb.png'
-  },
-
-  {
-    name: 'Goldman Sachs',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912314/MorganTechFest/patners/Gold-1_mtkyt3.png'
-  },
-  {
-    name: 'Roku',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912315/MorganTechFest/patners/roku-logo_xzx5t7.png'
-  },
-  {
-    name: 'Amazon',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912314/MorganTechFest/patners/Amazon-Logo_uwtnvr.png'
-  },
-  {
-    name: 'Google',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1695066273/MorganTechFest/patners/image_2_n9g3tw.png'
-  },
-  {
     name: 'JS Technology Academy',
     img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912315/MorganTechFest/patners/JOS-Tech-Logo_yyryyj.png'
   },
   {
-    name: 'Microsoft',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912314/MorganTechFest/patners/png-transparent-microsoft-logo-microsoft-thumbnail_nltjdz.png'
+    name: 'AWS',
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700028978/MorganTechFest/patners/aws_logo_1_sdbmrm.png'
   },
   {
-    name: 'M&T Tech',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912314/MorganTechFest/patners/mtb_yellow_1000x400_bndhia.png'
+    name: 'Oracle',
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700028978/MorganTechFest/patners/Oracle_logo_PNG1_1_xfqgvx.png'
   },
   {
-    name: 'Kiwi bot',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912314/MorganTechFest/patners/kiwibot_owler_20210302_222701_original_gtrqkk.png'
+    name: 'Scholarly',
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700028979/MorganTechFest/patners/Scholarly_1_ens2ws.png'
   },
   {
-    name: 'HBCU',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912315/MorganTechFest/patners/Copy_of_Adobe_HBCU_20x20_HBCU_Fellowship_3_ss0cdo.png'
+    name: 'Morgan State University',
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700028979/MorganTechFest/patners/Morgan_State_University_Logo_1_h6kfwm.png'
   },
   {
-    name: 'Fannie Mae',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1693912315/MorganTechFest/patners/FNMAL_BIG-c2a1e64d_tlda8h.png'
+    name: 'Morgan State University, graves school',
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700028979/MorganTechFest/patners/MSU-Earl-G-Graves-Logo-1_1_vlv3ij.png'
   }
 ]
 
