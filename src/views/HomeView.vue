@@ -156,7 +156,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
 
       <div class="mt-14 flex justify-center lg:mt-16">
         <a 
-          href="https://drive.google.com/file/d/1F_tlXIv_0ZEIMT8aFZUo-djZPpvx3E2u/view?usp=sharing"
+          href="https://drive.google.com/file/d/19I9O3YuLNebegV23h7Z6oSua8dEuOGfI/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           class="flex items-center gap-x-4 rounded-[44px] border-2 border-white px-6 py-4 font-urbanist text-lg font-semibold text-white hover:text-white md:text-2xl lg:border-0 lg:py-6 lg:text-3xl"
