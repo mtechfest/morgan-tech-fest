@@ -222,17 +222,17 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
     <h2 class="sub-title-dark mx-auto">sponsors</h2>
 
     <div class="mt-20 flex flex-col items-center gap-y-16 lg:gap-y-24">
-      <div class="4xl:w-full">
+      <div class="md:w-4/5 flex justify-center 4xl:w-full">
         <img
           src="https://res.cloudinary.com/ojay-dev/image/upload/v1693912316/MorganTechFest/sponsors/gold_sponsor_efuamu.svg"
           alt="Bloomberg"
-          class="4xl:w-full"
+          class="md:w-4/5 4xl:w-full"
         />
       </div>
 
       <div class="4xl:w-full">
         <img
-          src="https://res.cloudinary.com/ojay-dev/image/upload/v1693912315/MorganTechFest/sponsors/silver_sponsor_nytcof.svg"
+          src="https://res.cloudinary.com/ojay-dev/image/upload/v1700027733/MorganTechFest/sponsors/Silver_Sponsor_fqwafo.svg"
           alt="HBCU"
           class="4xl:mx-auto 4xl:w-[80%]"
         />
@@ -390,10 +390,10 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
 }
 
 .sub-title {
-  @apply block max-w-[376px] text-center font-bebas text-8xl font-normal text-white lg:text-[112px];
+  @apply block max-w-[376px] text-center font-bebas text-6xl xs:text-8xl font-normal text-white lg:text-[112px];
 }
 .sub-title-dark {
-  @apply block max-w-[376px] text-center font-bebas text-8xl font-normal text-[#121139]  lg:text-[112px];
+  @apply block max-w-[376px] text-center font-bebas text-6xl xs:text-8xl font-normal text-[#121139]  lg:text-[112px];
 }
 
 .video-section {
@@ -422,7 +422,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
 }
 
 .speaker-img-container {
-  @apply relative h-[375px] w-[328px] overflow-hidden rounded-3xl;
+  @apply relative h-[375px] w-[328px] overflow-hidden rounded-3xl max-w-full;
 }
 
 .speaker-img-container::before {
