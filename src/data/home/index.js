@@ -11,36 +11,48 @@ export const schedule = [
 
 export const panelist = [
   {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694208775/MorganTechFest/panelist/Dr._Md_Rahman_copy_wjpz8x.png',
-    name: 'Mahmudur Rahman'
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033097/MorganTechFest/panelist/SpeakerImage04_iiwvll.svg',
+    name: 'Jamell Dacon'
   },
   {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694035269/MorganTechFest/panelist/Dr._Oludare_Owolabi_asncbj.png',
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033093/MorganTechFest/panelist/SpeakerImage04-2_sdzkma.svg',
+    name: 'Dr. Gabriella Waters'
+  },
+  {
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033096/MorganTechFest/panelist/SpeakerImage04-8_naivwp.svg',
+    name: 'Dr.Naja Mack'
+  },
+  {
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033096/MorganTechFest/panelist/SpeakerImage04-9_plobnl.svg',
+    name: 'Dr.Jigish Zaveri'
+  },
+  {
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033094/MorganTechFest/panelist/SpeakerImage04-4_mdqvik.svg',
+    name: 'Dr.Fahmi Khalifa'
+  },
+  {
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033094/MorganTechFest/panelist/SpeakerImage04-5_n9yh2g.svg',
+    name: 'Dr.Oluwatobi Busari'
+  },
+  {
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033091/MorganTechFest/panelist/SpeakerImage03_uwozv6.svg',
     name: 'Dr. Oludare Owolabi'
   },
   {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694035437/MorganTechFest/panelist/Prof._Tomasz_Durakiewicz_1_mumive.png',
-    name: 'Prof. Tomasz Durakiewicz'
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033092/MorganTechFest/panelist/SpeakerImage04-1_n1ixjq.svg',
+    name: 'Dr.Adedayo Ariyibi'
   },
   {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694208776/MorganTechFest/panelist/Dr_Monir_Sharker_obhgzr.png',
-    name: 'Monir Sharker'
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033094/MorganTechFest/panelist/SpeakerImage04-3_szqeq8.svg',
+    name: 'Dr.Blessing Ojeme'
   },
   {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694034333/MorganTechFest/panelist/taofeek_mzebqx.png',
-    name: 'Taofeek Obafemi Babatunde'
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033094/MorganTechFest/panelist/SpeakerImage04-6_hdgu6e.svg',
+    name: 'Dr.Eric Sakk'
   },
   {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694035608/MorganTechFest/panelist/Michael_McDonald_nvrpar.png',
-    name: 'Michael Mcdonald'
-  },
-  {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694035824/MorganTechFest/panelist/Mike_Hoggard_copy_csuu5w.png',
-    name: 'Micheal Hoggard'
-  },
-  {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1694119054/MorganTechFest/panelist/Rebecca_Rosena_q3vxzt.png',
-    name: 'Rebecca Rosena'
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033095/MorganTechFest/panelist/SpeakerImage04-7_chd89y.svg',
+    name: 'Dr.Adeoye O Olaoluwa'
   }
 ]
 

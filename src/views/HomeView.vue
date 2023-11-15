@@ -184,7 +184,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
           <div class="speaker-img-container">
             <img
               src="https://res.cloudinary.com/ojay-dev/image/upload/v1700029935/MorganTechFest/speakers/Patrice_Barnes_fwbin6.jpg"
-              alt="Dr. Hongtao Yu"
+              alt="Patrice Barnes"
               class="object-cover"
             />
 
@@ -194,7 +194,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
       </div>
 
       <div class="mt-24 lg:mt-40">
-        <h2 class="sub-title mx-auto">Panelist</h2>
+        <h2 class="sub-title mx-auto">Panels/Judges</h2>
 
         <div class="panelist-section">
           <template v-for="item in panelist" :key="item.name">
@@ -426,7 +426,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
 }
 
 .panelist-section {
-  @apply mt-6 flex gap-x-5 gap-y-9 overflow-x-auto md:grid md:grid-cols-4 lg:mt-24;
+  @apply mt-6 flex gap-x-5 gap-y-9 overflow-x-auto  lg:mt-24;
 }
 
 .panelist-img {
