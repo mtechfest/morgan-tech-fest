@@ -173,32 +173,22 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
         >
           <div class="speaker-img-container">
             <img
-              src="https://res.cloudinary.com/ojay-dev/image/upload/v1694032219/MorganTechFest/speakers/1692902593759_1_thgonx.jpg"
-              alt="Dr. Yacob Astatke"
-              class="object-cover"
-            />
-
-            <span class="speaker-name">Dr. Yacob Astatke</span>
-          </div>
-
-          <div class="speaker-img-container">
-            <img
-              src="https://res.cloudinary.com/ojay-dev/image/upload/v1694030711/MorganTechFest/speakers/Akers_Tim_r9h7yl.jpg"
-              alt="Dr. Timothy A. Akers"
-              class="w-full object-cover"
-            />
-
-            <span class="speaker-name">Dr. Timothy A. Akers</span>
-          </div>
-
-          <div class="speaker-img-container">
-            <img
               src="https://res.cloudinary.com/ojay-dev/image/upload/v1694032777/MorganTechFest/speakers/hongtao-yu_xumojr.jpg"
               alt="Dr. Hongtao Yu"
               class="object-cover"
             />
 
-            <span class="speaker-name">Dr. Hongtao Yu</span>
+            <span class="speaker-name">Prov. Dr. Hongtao Yu</span>
+          </div>
+          
+          <div class="speaker-img-container">
+            <img
+              src="https://res.cloudinary.com/ojay-dev/image/upload/v1700029935/MorganTechFest/speakers/Patrice_Barnes_fwbin6.jpg"
+              alt="Dr. Hongtao Yu"
+              class="object-cover"
+            />
+
+            <span class="speaker-name">Patrice Barnes</span>
           </div>
         </div>
       </div>
