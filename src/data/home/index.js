@@ -106,7 +106,7 @@ export const FaqQuestionsAnswers = [
   },
   {
     question: 'Morgan TechFest is when?',
-    answer: `It is a two-day event, starting on Thursday, November 9, from 10 a.m. to 4 p.m. and Friday, November 10, from 10 a.m. to 4 p.m. `
+    answer: `It is a two-day event, starting on Friday, November 17, 2pm - 5pm and Saturday, November 18, 9am - 5.05pm `
   },
   {
     question: 'Are provisions like breakfast, lunch, and dinner included?',
