@@ -380,7 +380,7 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
 }
 
 .sub-title {
-  @apply block max-w-[376px] text-center font-bebas text-6xl xs:text-8xl font-normal text-white lg:text-[112px];
+  @apply block text-center font-bebas text-6xl xs:text-8xl font-normal text-white lg:text-[112px];
 }
 .sub-title-dark {
   @apply block max-w-[376px] text-center font-bebas text-6xl xs:text-8xl font-normal text-[#121139]  lg:text-[112px];
