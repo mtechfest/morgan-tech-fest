@@ -12,7 +12,7 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
 import GithubIcon from '@/components/icons/IconGithub.vue'
 import DiscordIcon from '@/components/icons/IconDiscord.vue'
 import FAQItem from '@/components/FAQItem.vue'
-import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
+import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from '@/data/home'
 </script>
 
 <template>
@@ -194,10 +194,20 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
       </div>
 
       <div class="mt-24 lg:mt-40">
-        <h2 class="sub-title mx-auto">Panels/Judges</h2>
+        <h2 class="sub-title mx-auto">Panelists/Judges</h2>
 
         <div class="panelist-section">
           <template v-for="item in panelist" :key="item.name">
+            <img :src="item.img" :alt="item.name" class="panelist-img"
+          /></template>
+        </div>
+      </div>
+      
+      <div class="mt-24 lg:mt-40">
+        <h2 class="sub-title mx-auto">Recruiter's Panel</h2>
+
+        <div class="panelist-section">
+          <template v-for="item in recruitPanels" :key="item.name">
             <img :src="item.img" :alt="item.name" class="panelist-img"
           /></template>
         </div>
@@ -248,12 +258,13 @@ import { schedule, panelist, partners, FaqQuestionsAnswers } from '@/data/home'
       </p>
 
       <div class="mt-14 flex justify-center lg:mt-16">
-        <RouterLink
-          to="/"
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdY4ck5YX9NmUqldB8Cw-9tjsrqo37z8GoQ_1XzNDYvaA8DHQ/viewform?usp=sf_link"
+          target="_blank" rel="noopener noreferrer"
           class="flex items-center gap-x-4 rounded-[44px] border-2 border-white px-6 py-4 font-urbanist text-lg font-semibold text-white hover:text-white md:text-2xl lg:border-0 lg:py-6 lg:text-3xl"
           >Become a Sponsor
           <ArrowExternalIcon />
-        </RouterLink>
+        </a>
       </div>
     </div>
 

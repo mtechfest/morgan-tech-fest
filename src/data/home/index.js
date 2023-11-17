@@ -15,8 +15,8 @@ export const panelist = [
     name: 'Jamell Dacon'
   },
   {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033093/MorganTechFest/panelist/SpeakerImage04-2_sdzkma.svg',
-    name: 'Dr. Gabriella Waters'
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700193213/MorganTechFest/panelist/SpeakerImage03-1_oqvykf.svg',
+    name: 'Gabriella Waters'
   },
   {
     img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033096/MorganTechFest/panelist/SpeakerImage04-8_naivwp.svg',
@@ -54,23 +54,6 @@ export const panelist = [
     img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700033095/MorganTechFest/panelist/SpeakerImage04-7_chd89y.svg',
     name: 'Dr.Adeoye O Olaoluwa'
   },
-
-  {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700035238/MorganTechFest/panelist/SpeakerImage04_oxhuex.svg',
-    name: 'Michael Hoggard'
-  },
-  {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700035234/MorganTechFest/panelist/SpeakerImage04-2_ob41hl.svg',
-    name: 'Patrice Barnes'
-  },
-  {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700035234/MorganTechFest/panelist/SpeakerImage03_yhs9mx.svg',
-    name: 'Sammy Munsch'
-  },
-  {
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700035234/MorganTechFest/panelist/SpeakerImage04-1_edjq7j.svg',
-    name: 'Taofeek Obafemi'
-  },
   {
     img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700035236/MorganTechFest/panelist/SpeakerImage04-3_ebts6y.svg',
     name: 'Dr. George Micheni'
@@ -86,6 +69,25 @@ export const panelist = [
   {
     img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700035236/MorganTechFest/panelist/SpeakerImage04-5_qjrvl7.svg',
     name: 'Temitope Ajibola'
+  }
+]
+
+export const recruitPanels = [
+  {
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700193583/MorganTechFest/panelist/SpeakerImage04_jfrjds.svg',
+    name: 'Michael Hoggard'
+  },
+  {
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700193582/MorganTechFest/panelist/SpeakerImage04-1_tajdux.svg',
+    name: 'Patrice Barnes'
+  },
+  {
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700193582/MorganTechFest/panelist/SpeakerImage03_zmvrov.svg',
+    name: 'Gwen St. Julian'
+  },
+  {
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700193605/MorganTechFest/panelist/SpeakerImage04_p5bayz.svg',
+    name: 'Taofeek Obafemi'
   }
 ]
 
@@ -107,8 +109,8 @@ export const partners = [
     img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700028979/MorganTechFest/patners/Scholarly_1_ens2ws.png'
   },
   {
-    name: 'Morgan State University',
-    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700028979/MorganTechFest/patners/Morgan_State_University_Logo_1_h6kfwm.png'
+    name: 'Timeless Venture Group',
+    img: 'https://res.cloudinary.com/ojay-dev/image/upload/v1700192312/MorganTechFest/patners/TGV_2_1_dpmpfd.png'
   },
   {
     name: 'Morgan State University, graves school',
@@ -131,7 +133,7 @@ export const FaqQuestionsAnswers = [
   },
   {
     question: 'Are there any accolades presented for exceptional research contributions?',
-    answer: `Yes. We award the best 3 research papers.`
+    answer: `Yes. We award the best 3 research posters.`
   },
   {
     question: 'Is Morgan TechFest accessible to all university students?',
