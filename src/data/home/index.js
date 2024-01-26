@@ -125,15 +125,16 @@ export const FaqQuestionsAnswers = [
   },
   {
     question: 'Who is eligible to participate in Morgan TechFest?',
-    answer: `University students (undergraduate, graduate, or postgraduate)`
+    answer: `University students (undergraduate, graduate, & postgraduate)`
   },
   {
     question: 'Which specific domain of research does Morgan TechFest emphasize?',
-    answer: `All tech-related research (AI, VR, blockchain, software, etc.)`
+    answer: `All tech-related research (AI, VR, Blockchain, Software Development, Robotics etc.)`
   },
   {
-    question: 'Are there any accolades presented for exceptional research contributions?',
-    answer: `Yes. We award the best 3 research posters.`
+    question:
+      'Are there any accolades presented for exceptional contributions during the Symposium?',
+    answer: `Yes. We award the best 3 projects.`
   },
   {
     question: 'Is Morgan TechFest accessible to all university students?',
@@ -153,7 +154,7 @@ export const FaqQuestionsAnswers = [
   },
   {
     question: 'Morgan TechFest is when?',
-    answer: `It is a two-day event, starting on Friday, November 17, 2pm - 5pm and Saturday, November 18, 9am - 5.05pm `
+    answer: `It is a two-day event, specific dates coming soon... `
   },
   {
     question: 'Are provisions like breakfast, lunch, and dinner included?',

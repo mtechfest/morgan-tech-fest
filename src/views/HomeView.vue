@@ -77,13 +77,7 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
           <div class="flex gap-x-10">
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]">Date:</span>
-              <p class="font-urbanist text-[22px] text-white">
-                Fri, Nov. 17, 2023<br />
-                2pm - 5pm.
-                <br /><br />
-                Sat, Nov. 18, 2023<br />
-                9am - 5pm.
-              </p>
+              <p class="font-urbanist text-[22px] text-white">TBD</p>
             </div>
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]"
@@ -155,7 +149,7 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
       </div>
 
       <div class="mt-14 flex justify-center lg:mt-16">
-        <a 
+        <a
           href="https://drive.google.com/file/d/19I9O3YuLNebegV23h7Z6oSua8dEuOGfI/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
@@ -180,7 +174,7 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
 
             <span class="speaker-name">Prov. Dr. Hongtao Yu</span>
           </div>
-          
+
           <div class="speaker-img-container">
             <img
               src="https://res.cloudinary.com/ojay-dev/image/upload/v1700029935/MorganTechFest/speakers/Patrice_Barnes_fwbin6.jpg"
@@ -202,7 +196,7 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
           /></template>
         </div>
       </div>
-      
+
       <div class="mt-24 lg:mt-40">
         <h2 class="sub-title mx-auto">Recruiter's Panel</h2>
 
@@ -219,10 +213,10 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
     class="px-6 pb-16 pt-14 lg:mx-auto lg:max-w-5xl lg:px-0 lg:pb-52 lg:pt-40 4xl:max-w-screen-xl"
     id="sponsors"
   >
-    <h2 class="sub-title-dark mx-auto">sponsors</h2>
+    <h2 class="sub-title-dark mx-auto">2023 Sponsors</h2>
 
     <div class="mt-20 flex flex-col items-center gap-y-16 lg:gap-y-24">
-      <div class="md:w-4/5 flex justify-center 4xl:w-full">
+      <div class="flex justify-center md:w-4/5 4xl:w-full">
         <img
           src="https://res.cloudinary.com/ojay-dev/image/upload/v1693912316/MorganTechFest/sponsors/gold_sponsor_efuamu.svg"
           alt="Bloomberg"
@@ -260,7 +254,8 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
       <div class="mt-14 flex justify-center lg:mt-16">
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSdY4ck5YX9NmUqldB8Cw-9tjsrqo37z8GoQ_1XzNDYvaA8DHQ/viewform?usp=sf_link"
-          target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
           class="flex items-center gap-x-4 rounded-[44px] border-2 border-white px-6 py-4 font-urbanist text-lg font-semibold text-white hover:text-white md:text-2xl lg:border-0 lg:py-6 lg:text-3xl"
           >Become a Sponsor
           <ArrowExternalIcon />
@@ -269,7 +264,7 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
     </div>
 
     <div class="mt-[84px] lg:mt-[158px]">
-      <h2 class="sub-title-dark mx-auto">partners</h2>
+      <h2 class="sub-title-dark mx-auto">2023 partners</h2>
 
       <div
         class="mt-5 grid grid-cols-2 items-center justify-center gap-x-9 gap-y-10 md:flex md:flex-wrap lg:mt-[78px] lg:gap-x-[128px] lg:gap-y-16"
@@ -391,10 +386,10 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
 }
 
 .sub-title {
-  @apply block text-center font-bebas text-6xl xs:text-8xl font-normal text-white lg:text-[112px];
+  @apply block text-center font-bebas text-6xl font-normal text-white xs:text-8xl lg:text-[112px];
 }
 .sub-title-dark {
-  @apply block max-w-[376px] text-center font-bebas text-6xl xs:text-8xl font-normal text-[#121139]  lg:text-[112px];
+  @apply block max-w-[376px] text-center font-bebas text-6xl font-normal text-[#121139] xs:text-8xl  lg:text-[112px];
 }
 
 .video-section {
@@ -423,7 +418,7 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
 }
 
 .speaker-img-container {
-  @apply relative h-[375px] w-[328px] overflow-hidden rounded-3xl max-w-full;
+  @apply relative h-[375px] w-[328px] max-w-full overflow-hidden rounded-3xl;
 }
 
 .speaker-img-container::before {
