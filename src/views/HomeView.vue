@@ -38,21 +38,13 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
           <div class="flex gap-x-10">
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]">Date:</span>
-              <p class="font-urbanist text-[22px] text-white">
-                Fri, Nov. 17, 2023<br />
-                2pm - 5pm.
-                <br /><br />
-                Sat, Nov. 18, 2023<br />
-                9am - 5pm.
-              </p>
+              <p class="font-urbanist text-[22px] text-white">TBA</p>
             </div>
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]"
                 >Venue:</span
               >
-              <p class="font-urbanist text-[22px] text-white">
-                Graves School of Business and Management.
-              </p>
+              <p class="font-urbanist text-[22px] text-white">Morgan State University.</p>
             </div>
           </div>
         </div>
@@ -77,15 +69,13 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
           <div class="flex gap-x-10">
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]">Date:</span>
-              <p class="font-urbanist text-[22px] text-white">TBD</p>
+              <p class="font-urbanist text-[22px] text-white">TBA</p>
             </div>
             <div class="max-w-[163px]">
               <span class="font-urbanist text-base font-black uppercase text-[#F68F21]"
                 >Venue:</span
               >
-              <p class="font-urbanist text-[22px] text-white">
-                Graves School of Business and Management.
-              </p>
+              <p class="font-urbanist text-[22px] text-white">Morgan State University.</p>
             </div>
           </div>
         </div>
@@ -120,11 +110,25 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
 
     <div class="mt-11 lg:mx-auto lg:max-w-5xl 3xl:max-w-screen-lg 4xl:max-w-screen-xl">
       <div class="flex flex-col items-center gap-x-12 gap-y-12 md:flex-row">
-        <p class="font-urbanist text-xl font-normal md:w-1/2">
-          Morgan TechFest focuses on educating students about the influence of technology on their
-          career paths, facilitating networking with tech experts, enabling job opportunities in the
-          tech industry, and recognizing outstanding tech-innovative research through poster
-          showcases and awards.
+        <p class="text-justify font-urbanist text-xl font-normal md:w-1/2">
+          Morgan TechFest is more than an educational experience; it's a dynamic platform propelling
+          students into the future of technology and innovation. Our focus is on enlightening
+          students about the transformative impact of technology on their career paths.
+
+          <br /><br />
+          As part of TechFest 2024, we invite you to unleash your creativity in the Innovation
+          Showcase, offering cash prizes and recognition in categories such as Engineering &
+          Technology, Computer Science & Coding, and Business & Education Technology. Beyond this,
+          we facilitate networking with tech experts, opening doors to job opportunities in the
+          industry. For those immersed in research, our Research Symposium beckons, providing a
+          stage to present findings in categories like Artificial Intelligence, Robotics,
+          Cybersecurity, Data Science, Virtual Reality, and Blockchain.
+
+          <br /><br />
+          Open to all students, Morgan TechFest is not just an event but a call to action – start
+          your project, develop your idea, and let's innovate together! Stay connected for updates
+          and inspiration through our social media channels, and visit our website to learn more.
+          Join us in shaping the future at Morgan TechFest 2024!
         </p>
 
         <div class="md:w-1/2">
@@ -244,10 +248,13 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
       </p>
 
       <p class="mt-9 font-urbanist text-base font-bold text-white lg:mt-[60px] lg:text-xl">
-        Learn more about the opportunity to become a Gold sponsor or explore other available
+        Learn more about the opportunity to become a Platinum sponsor or explore other available
         sponsorship tiers for the upcoming event. Please send an email to:
         <a href="mailto:morgantechfest@gmail.com" target="_blank" rel="noopener noreferrer"
           >morgantechfest@gmail.com</a
+        >/
+        <a href="mailto:sewil16@morgan.edu" target="_blank" rel="noopener noreferrer"
+          >sewil16@morgan.edu</a
         >
       </p>
 
@@ -313,7 +320,7 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
 
         <div class="mt-14 flex justify-center lg:mt-16">
           <a
-            href="https://drive.google.com/drive/folders/15Vswx6fn4A6U_I6ScyX54fm6tYN70gGC?usp=sharing"
+            href="https://seethroughmylens.pixieset.com/morgantechfest/"
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-center gap-x-4 rounded-[44px] border-2 border-white px-6 py-4 font-urbanist text-lg font-semibold text-white hover:text-white md:text-2xl lg:border-0 lg:py-6 lg:text-3xl"
