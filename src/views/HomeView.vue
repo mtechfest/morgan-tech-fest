@@ -87,7 +87,7 @@ import { schedule, panelist, recruitPanels, partners, FaqQuestionsAnswers } from
     <div class="lg:mx-auto lg:max-w-5xl 3xl:max-w-screen-lg 4xl:max-w-screen-xl">
       <div class="video-container">
         <iframe
-          src="https://www.youtube.com/embed/rI_NHdC4kEY"
+          src="https://www.youtube.com/embed/rbUvsSZRNnI?si=kidkUFrEuH_m1Yu1"
           title="Networking Session"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
